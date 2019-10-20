@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.logs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.log {
+    margin: 8px;
+    padding: 10px;
+}
+
+.text {
+    display: block;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.subTitle {
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+    color: darkgray;
+}
+
+.infoName {
+    font-size: 1.2rem;
+}
+
+.info {
+    color: #424242;
+}
